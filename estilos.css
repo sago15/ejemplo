@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+
+    background: #D3D936;
+    color: #6F7302;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.formulario{
+    width: 320px;
+    background: #D5D96C;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type = "text"]{
+    width: 100%;
+    background: #F0F2B3;
+    border: 1px solid #6F7302 ;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #4a4d02;
+}
+
+input[type = "number"]{
+    width: 100%;
+    background: #F0F2B3;
+    border: 1px solid #6F7302 ;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #4a4d02;
+}
+
+input[type = "email"]{
+    width: 100%;
+    background: #F0F2B3;
+    border: 1px solid #6F7302 ;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #4a4d02;
+}
+
+select[class = "seleccion"]{
+    width: 100%;
+    background: #F0F2B3;
+    border: 1px solid #6F7302 ;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #4a4d02;
+}
+
+input[type = "submit"]{
+    background: #4a4d02;
+    width: 100%;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    color: #F0F2B3;
+    font-size: 20px;
+}
+
+input[type = "submit"]:hover{
+    background: #4a4d02;
+    transition: .6s;
+}
+
+::placeholder{
+    color: #4a4d02;
+
+}
+
+header{
+    position: fixed;
+    left: 35%;
+    top: 5%;
+    font-size: 30px;
+    font-family: 'Open Sans', Arial, sans-serif;;
+    font-style: italic;
+    padding: 40px 20px;
+    transform: translate(-5%, -30%);
+}
+

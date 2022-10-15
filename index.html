@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <title>PRueba Formulario</title>
+    <form action="Registro.php" method="post"></form>
+    <header>REGISTRO DE USUARIOS</header>
+
+    <div class="formulario">
+
+     <form action="">
+            <table>
+                <tr>
+                    
+                   
+                    <td><input type="text" placeholder="Ingresa tu nombre" name="nombre" required >  </td>
+                </tr>
+                <tr>
+                 
+                    <td><input type="text" placeholder="Ingresa tu Apellido"name="apellido" required >  </td>
+                </tr>
+                <tr>
+                        <td>
+                            <select class="seleccion" name="Tipodocumento" required >
+                              <option value="cc">C.C</option>
+                              <option value="ti">T.I</option>
+                              <option value="pasaporte">PASAPORTE</option>
+                              <option value="ce">Cedula extranjeria</option>
+                            </select>
+                        </td>    
+                </tr>
+                <tr>
+                   
+                    <td><input type="number" placeholder="Ingresa tu numero de documento" name="numerodocumento" required >  </td> 
+                </tr>
+                <tr>
+                 
+                    <td><input type="email" placeholder="Ingresa tu correo electronico" name="email" required >  </td> 
+                </tr>
+                <tr>
+                
+                    <td><input type="number" placeholder="Ingresa tu Numero de celular" name="numerotelefono" required >  </td> 
+                </tr>
+
+                <tr>
+                    <td> <input type="submit" value="ENVIAR" name="enviar"></td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
